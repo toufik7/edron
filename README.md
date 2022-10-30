@@ -5,7 +5,7 @@ String Generator Web Application
 
 - download `edron.zip` and extract files 
 
-- download zip file [demo.zip](https://drive.google.com/file/d/1FfmK-IFF-qcJic7gq0zYO_LwwMTa8VPG/view?usp=share_link)  and extract it to get `demo.war`
+- download zip file `demo.zip` [link](https://drive.google.com/file/d/1rbEzNylI-qBup01lrFimsX_ekMVgAiuL/view?usp=share_link)  and extract it to get `demo.war`
 
 - add `demo.war` under `target` diractory
 - start `Docker`
