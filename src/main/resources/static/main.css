@@ -1,0 +1,84 @@
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+.form-group{
+    padding: 0;
+    margin: 0;
+}
+
+.form-check-label{
+    padding: 5px;
+}
+
+body{
+    padding: 20px;
+}
+.container{
+    padding: 10px;
+    margin-top: 20px;
+}
+.checks{
+    padding-left: 20px;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+table{
+    background-color: #f2f2f2;
+}
+#tr tbody td{
+    color: #4CAF50;
+}
+#tc tbody td{
+    color: #096d86;
+}
+#tc thead{
+    background-color: #096d86;
+    color: #f2f2f2;
+}
+#tr thead{
+    background-color: #4CAF50;
+    color: #f2f2f2;
+}
+.r_title{
+    color: #4CAF50;
+}
+.c_title{
+    color: #096d86;
+}
+small{
+    color: #45a049;
+}
+.nav-link{
+    font-weight: bold;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <link th:rel="stylesheet" th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{/main.css}"/>
+</head>
+<body>
+
+<div class="container text-center col-4 " >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="@{/result}">Dashboard</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="container col-4 text-center">
+    <form th:action="@{/}" method="post">
+
+            <div class="form-group">
+
+                <label th:for="nbJobs"><strong>Start New Jobs  <small>Enter Number Of jobs to start</small> </strong></label>
+                <input class="form-control" type="number" th:id="nbJobs" th:min="1" th:name="nbJobs" required placeholder="number of jobs">
+            </div>
+
+            <input type="submit" value="Submit" class="btn btn-primary col-4">
+    </form>
+</div>
+
+
+
+
+<script th:src="@{/webjars/jquery/3.0.0/jquery.min.js}"></script>
+<script th:src="@{/webjars/popper.js/1.12.9-1/umd/popper.min.js}"></script>
+<script th:src="@{/webjars/bootstrap/4.0.0-2/js/bootstrap.min.js}"></script>
+
+
+</body>
+</html>

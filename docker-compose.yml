@@ -1,0 +1,40 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:5.7
+    command: --init-file /data/application/init.sql
+    volumes:
+      - ./init.sql:/data/application/init.sql
+      - /opt/test:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: string_generator
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+    ports:
+      - 3306:3306
+  phpmyadmin:
+    depends_on:
+      - db
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - '8081:80'
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: root
+  web:
+    depends_on:
+      - db
+    build:
+      context: .
+      dockerfile: Dockerfile_Web
+    ports: 
+      - "8082:8080"
+    command: ['catalina.sh', 'run']
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/string_generator?autoReconnect=true&useSSL=false&allowMultiQueries=true
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: string_generator
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      
