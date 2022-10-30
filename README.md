@@ -7,7 +7,7 @@ String Generator Web Application
 
 - download zip file `demo.zip` [link](https://drive.google.com/file/d/1rbEzNylI-qBup01lrFimsX_ekMVgAiuL/view?usp=share_link)  and extract it to get `demo.war`
 
-- add `demo.war` under `target` diractory
+- add `demo.war` in root diractory
 - start `Docker`
 - in root diractory run : `docker-compose up -d`
 - this will download necessary images and start the following services :
