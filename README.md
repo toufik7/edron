@@ -7,7 +7,7 @@ String Generator Web Application
 
 - add `demo.war` under `target` diractory
 - in root diractory run : `docker-compose up -d`
-- this will start the following services : 
+- this will download necessary images and start the following services :
   - `mysql database` with exsisting samples for testing on port 3036
   - `phpMyAdmin GUI` on port 8081 [localhost:8081](http://localhost:8081)
   - `Tomcat` web application on port 8082
