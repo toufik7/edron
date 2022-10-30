@@ -15,6 +15,10 @@ String Generator Web Application
   - `phpMyAdmin GUI` on port 8081 [localhost:8081](http://localhost:8081)
     - login with `root` as `username` and `password`.
   - `Tomcat` web application on port 8082
+
+### running images
+![container](https://user-images.githubusercontent.com/52804863/198900218-946683dc-7029-4b99-8418-8a49d6a69a88.png)
+
   
   - go to [localhost:8082/demo](http://localhost:8082/demo/) to get to Home page.
   
