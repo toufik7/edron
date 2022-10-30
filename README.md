@@ -8,6 +8,7 @@ String Generator Web Application
 - download zip file [demo.zip](https://drive.google.com/file/d/1FfmK-IFF-qcJic7gq0zYO_LwwMTa8VPG/view?usp=share_link)  and extract it to get `demo.war`
 
 - add `demo.war` under `target` diractory
+- start `Docker`
 - in root diractory run : `docker-compose up -d`
 - this will download necessary images and start the following services :
   - `mysql database` with exsisting samples for testing on port 3036
