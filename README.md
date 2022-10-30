@@ -21,3 +21,20 @@ String Generator Web Application
 ## Run Tests In One Command
 
  - in root diractory run : `mvn test`
+ 
+ 
+ ## OVERVIEW
+ 
+ ### Home
+![Home](https://user-images.githubusercontent.com/52804863/198896524-0fe5831c-846e-40e9-a548-6d6d201328e3.png)
+ ### multiple jobs Fom valid
+![multiple jobs Fom valid](https://user-images.githubusercontent.com/52804863/198896529-c3c703c8-6203-4ae0-8a3a-a0532a406a04.png)
+ ### Single job form_ valid
+![Single job form_ valid](https://user-images.githubusercontent.com/52804863/198896531-f853b805-b334-4198-bc00-2380a32a8f29.png)
+ ### Alert_Error_nbStrings
+![Alert_Error_nbStrings](https://user-images.githubusercontent.com/52804863/198896536-88ea9b8e-1ac9-4935-aaa9-bfa1266de8d0.png)
+ ### Alert_Error_minMax
+![Alert_Error_minMax](https://user-images.githubusercontent.com/52804863/198896537-53f3cfb9-c0c3-44f5-b709-5bfd66487552.png)
+ ### tasks_table
+![tasks_table](https://user-images.githubusercontent.com/52804863/198896539-c948feac-cea0-48df-8167-f9469a1bf6b0.png)![Running_Completed_jobs](https://user-images.githubusercontent.com/52804863/198896541-b91cbe73-c530-4ae9-bcba-39ceab78e5c1.png)
+
