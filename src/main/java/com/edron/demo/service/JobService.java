@@ -1,6 +1,8 @@
 package com.edron.demo.service;
 
 import java.io.PrintWriter;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicBoolean;
@@ -90,10 +92,12 @@ public class JobService {
         int n = set.length;
         int i=min;
         int nbString = 0;
-        String filePath = "GeneratedFiles\\"; // u can add your file path here
+
+        String filePath = "C:\\GeneratedFiles\\"; // u can add your file path here
         PrintWriter pw;
 
         try {
+            Files.createDirectories(Paths.get(filePath));
             String fileName = System.currentTimeMillis() +"_task_"+s.getFileName()+".txt"; // here you change file name
             taskEntity.setFileName(fileName); // set task fileName
             taskRepository.save(taskEntity);
