@@ -39,5 +39,8 @@ String Generator Web Application
 ![tasks_table](https://user-images.githubusercontent.com/52804863/198896539-c948feac-cea0-48df-8167-f9469a1bf6b0.png)
  ### Running_Completed_jobs
 ![Running_Completed_jobs](https://user-images.githubusercontent.com/52804863/198896541-b91cbe73-c530-4ae9-bcba-39ceab78e5c1.png)
- ### Generated Files
+ ### Generated Files 
+ -exemple of [45 million String]() of [f, g, h, i characters]() generated , notice the number of lines.
+ ![generatedFile45M](https://user-images.githubusercontent.com/52804863/198896838-d053c03e-2601-4df8-88af-e23aa5ee7c55.png)
+
 
