@@ -36,5 +36,8 @@ String Generator Web Application
  ### Alert_Error_minMax
 ![Alert_Error_minMax](https://user-images.githubusercontent.com/52804863/198896537-53f3cfb9-c0c3-44f5-b709-5bfd66487552.png)
  ### tasks_table
-![tasks_table](https://user-images.githubusercontent.com/52804863/198896539-c948feac-cea0-48df-8167-f9469a1bf6b0.png)![Running_Completed_jobs](https://user-images.githubusercontent.com/52804863/198896541-b91cbe73-c530-4ae9-bcba-39ceab78e5c1.png)
+![tasks_table](https://user-images.githubusercontent.com/52804863/198896539-c948feac-cea0-48df-8167-f9469a1bf6b0.png)
+ ### Running_Completed_jobs
+![Running_Completed_jobs](https://user-images.githubusercontent.com/52804863/198896541-b91cbe73-c530-4ae9-bcba-39ceab78e5c1.png)
+ ### Generated Files
 
