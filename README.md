@@ -22,7 +22,6 @@ String Generator Web Application
 
  - in root diractory run : `mvn test`
  
- 
  ## OVERVIEW
  
  ### Home
