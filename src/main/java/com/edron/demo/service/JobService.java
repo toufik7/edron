@@ -90,7 +90,7 @@ public class JobService {
         int n = set.length;
         int i=min;
         int nbString = 0;
-        String filePath = "C:\\Users\\pc cam\\Desktop\\project string\\";
+        String filePath = "GeneratedFiles\\"; // u can add your file path here
         PrintWriter pw;
 
         try {
