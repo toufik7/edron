@@ -25,6 +25,8 @@ String Generator Web Application
 ## Run Tests In One Command
 
  - in root diractory run : `mvn test`
+ ![test](https://user-images.githubusercontent.com/52804863/198904222-638252f4-c5c2-4e3e-83c4-ffd94d3ad9d8.png)
+
 
 #### PS: to view generated files please run project using an IDE (intellij... ) , file diractory is not created when running war file therefor files are not saved on local machine, but jobs metadata is still present in the database.
  
